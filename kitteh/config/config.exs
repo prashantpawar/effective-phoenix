@@ -12,7 +12,7 @@ config :kitteh,
 # Configures the endpoint
 config :kitteh, Kitteh.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "JjX6bsZbrfjGT2uBH8nk404K4+7wdvbIIOBDJ9wANExm/UHTpoZWGd8xgCl1oFWc",
+  secret_key_base: "FXnFRzn6o3XV0ZQXy+3H/aDevMduT6+jeX4Myq8B79dV1rg7Z3xjAPzTYtpXfEbL",
   render_errors: [view: Kitteh.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Kitteh.PubSub,
            adapter: Phoenix.PubSub.PG2]

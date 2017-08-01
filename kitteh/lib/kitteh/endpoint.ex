@@ -36,7 +36,7 @@ defmodule Kitteh.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_kitteh_key",
-    signing_salt: "2D0Lz8Yb"
+    signing_salt: "z08hLjRP"
 
   plug Kitteh.Router
 end
